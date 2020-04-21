@@ -2,7 +2,7 @@ TITLE ex1_q1
 ;name: kobi shaked. id: 203207873
 
 INCLUDE Irvine32.inc
-INCLUDE ex1_q1_data.inc
+INCLUDE ex1_q1_data_last_year.inc
 
 .data
 header BYTE "kobi shaked id: 203207873 EX1-Q1" ,10,13,0
