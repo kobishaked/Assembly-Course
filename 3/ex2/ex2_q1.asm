@@ -13,7 +13,7 @@ INCLUDE Irvine32.inc
 
 .code
 main PROC
-	    mov edx, OFFSET header 
+	    mov edx, OFFSET header              ;print student details
 	    call writeString
 	    mov edx, OFFSET rqst_char 
 	    call writeString
