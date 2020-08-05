@@ -60,6 +60,7 @@ SumArray PROC						;This function calculate the sum of array
 	mov esi, [ebp + 8]				;first argument, offset of the array
 	mov eax, 0
 L1:
+
 	movsx ebx, WORD PTR [esi]		;get the value of the element
 	add eax, ebx					;eax hold the sum
 	add esi, arrSize				;move the index to the next element
